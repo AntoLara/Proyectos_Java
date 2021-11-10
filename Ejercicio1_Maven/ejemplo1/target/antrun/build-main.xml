@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <condition else="/home/antonio/Documents/Git/Proyectos_Java/Ejercicio1_Maven/ejemplo1/target" property="finalJarDir" value="/home/antonio/Documents/Git/Proyectos_Java/Ejercicio1_Maven/ejemplo1/target/lib">
+      <equals arg2="true" arg1="true" casesensitive="" />
+    </condition>
+  </target>
+</project>
